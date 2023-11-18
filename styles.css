@@ -1,0 +1,28 @@
+:root {
+  --main-font: "Play", sans-serif;
+  --add-font: "Roboto", sans-serif;
+  --additional-color: #2b7fff;
+  --main-color: #011c44;
+}
+body {
+  font-family: var(--add-font);
+  color: var(--main-color);
+}
+h1,
+h2 {
+  font-family: var(--main-font);
+}
+h1 {
+  color: var(--additional-color);
+  font-size: 140px;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 64px;
+}
+h2 span {
+  color: var(--additional-color);
+}
+i {
+  color: var(--main-color);
+}
